@@ -26,6 +26,8 @@
 		7388B4F52BC9EE150091FE62 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7388B4E72BC9EE150091FE62 /* Roboto-Thin.ttf */; };
 		7388B4F62BC9EE150091FE62 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7388B4E82BC9EE150091FE62 /* Roboto-ThinItalic.ttf */; };
 		7388B4F92BC9F04D0091FE62 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4F82BC9F04D0091FE62 /* UIFont+Extension.swift */; };
+		7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */; };
+		7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FC2BCAC3460091FE62 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		7388B4E72BC9EE150091FE62 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		7388B4E82BC9EE150091FE62 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		7388B4F82BC9F04D0091FE62 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		7388B4FC2BCAC3460091FE62 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		7388B4DA2BC9EDED0091FE62 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7388B4FC2BCAC3460091FE62 /* AppColors.swift */,
 				7388B4F72BC9F0310091FE62 /* Extensions */,
 				7388B4DB2BC9EDFA0091FE62 /* Fonts */,
 			);
@@ -134,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				7388B4F82BC9F04D0091FE62 /* UIFont+Extension.swift */,
+				7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				7388B4CB2BC9E6410091FE62 /* ViewController.swift in Sources */,
 				7388B4C72BC9E6410091FE62 /* AppDelegate.swift in Sources */,
 				7388B4F92BC9F04D0091FE62 /* UIFont+Extension.swift in Sources */,
+				7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */,
 				7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */,
+				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
