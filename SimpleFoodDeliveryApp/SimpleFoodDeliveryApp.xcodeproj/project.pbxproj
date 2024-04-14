@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		73885A632BCC4628001A4009 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73885A622BCC4628001A4009 /* Coordinator.swift */; };
+		73885A652BCC6407001A4009 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73885A642BCC6407001A4009 /* AppCoordinator.swift */; };
+		73885A672BCC6533001A4009 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73885A662BCC6533001A4009 /* OnboardingCoordinator.swift */; };
 		7388B4C72BC9E6410091FE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4C62BC9E6410091FE62 /* AppDelegate.swift */; };
 		7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4C82BC9E6410091FE62 /* SceneDelegate.swift */; };
 		7388B4CB2BC9E6410091FE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4CA2BC9E6410091FE62 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		73885A622BCC4628001A4009 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		73885A642BCC6407001A4009 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		73885A662BCC6533001A4009 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		7388B4C32BC9E6410091FE62 /* SimpleFoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7388B4C62BC9E6410091FE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7388B4C82BC9E6410091FE62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				73885A622BCC4628001A4009 /* Coordinator.swift */,
+				73885A642BCC6407001A4009 /* AppCoordinator.swift */,
+				73885A662BCC6533001A4009 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 				7388B4C72BC9E6410091FE62 /* AppDelegate.swift in Sources */,
 				7388B4F92BC9F04D0091FE62 /* UIFont+Extension.swift in Sources */,
 				7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */,
+				73885A672BCC6533001A4009 /* OnboardingCoordinator.swift in Sources */,
+				73885A652BCC6407001A4009 /* AppCoordinator.swift in Sources */,
 				7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
 				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,
