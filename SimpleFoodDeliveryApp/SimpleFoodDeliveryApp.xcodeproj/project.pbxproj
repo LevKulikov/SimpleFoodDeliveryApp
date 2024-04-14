@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73885A632BCC4628001A4009 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73885A622BCC4628001A4009 /* Coordinator.swift */; };
 		7388B4C72BC9E6410091FE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4C62BC9E6410091FE62 /* AppDelegate.swift */; };
 		7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4C82BC9E6410091FE62 /* SceneDelegate.swift */; };
 		7388B4CB2BC9E6410091FE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4CA2BC9E6410091FE62 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73885A622BCC4628001A4009 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7388B4C32BC9E6410091FE62 /* SimpleFoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7388B4C62BC9E6410091FE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7388B4C82BC9E6410091FE62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73885A5F2BCC45BB001A4009 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				73885A612BCC45F4001A4009 /* Coordinators */,
+				73885A602BCC45D6001A4009 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		73885A602BCC45D6001A4009 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		73885A612BCC45F4001A4009 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				73885A622BCC4628001A4009 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		7388B4BA2BC9E6410091FE62 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +112,7 @@
 		7388B4C52BC9E6410091FE62 /* SimpleFoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				73885A5F2BCC45BB001A4009 /* NavigationLayer */,
 				7388B4DA2BC9EDED0091FE62 /* Resources */,
 				7388B4C62BC9E6410091FE62 /* AppDelegate.swift */,
 				7388B4C82BC9E6410091FE62 /* SceneDelegate.swift */,
@@ -233,6 +260,7 @@
 				7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */,
 				7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
+				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
