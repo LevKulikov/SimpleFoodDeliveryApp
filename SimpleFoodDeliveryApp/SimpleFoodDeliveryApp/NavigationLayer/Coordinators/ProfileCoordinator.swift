@@ -1,14 +1,16 @@
 //
-//  OnboardingCoordinator.swift
+//  ProfileCoordinator.swift
 //  SimpleFoodDeliveryApp
 //
-//  Created by Лев Куликов on 14.04.2024.
+//  Created by Лев Куликов on 15.04.2024.
 //
+
 import UIKit
 
-final class OnboardingCoordinator: Coordinator {
+final class ProfileCoordinator: Coordinator {
     override func start() {
         let viewController = ViewController()
+        viewController.view.backgroundColor = .white
         navigationController.pushViewController(viewController, animated: true)
     }
     
@@ -16,3 +18,4 @@ final class OnboardingCoordinator: Coordinator {
         finishDelegate?.coordinatorDidFinish(childCoordinator: self)
     }
 }
+

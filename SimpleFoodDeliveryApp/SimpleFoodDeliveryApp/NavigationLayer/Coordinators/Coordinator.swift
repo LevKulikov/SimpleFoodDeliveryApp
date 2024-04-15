@@ -76,3 +76,11 @@ class Coordinator: CoordinatorProtocol {
         print("Coordinator finishes")
     }
 }
+
+extension Coordinator {
+    func addChildCoordinators(_ coordinators: any CoordinatorProtocol...) {
+        for coordinator in coordinators {
+            addChildCoordinator(coordinator)
+        }
+    }
+}
