@@ -38,6 +38,7 @@
 		7388B4F92BC9F04D0091FE62 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4F82BC9F04D0091FE62 /* UIFont+Extension.swift */; };
 		7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */; };
 		7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FC2BCAC3460091FE62 /* AppColors.swift */; };
+		73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		7388B4F82BC9F04D0091FE62 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7388B4FC2BCAC3460091FE62 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				73740C002BD1CDC30018DD6C /* OnboardingViewController.swift */,
 				73740C022BD1CE060018DD6C /* OnboardingViewPresenter.swift */,
+				73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				73885A6D2BCD2276001A4009 /* ListCoordinator.swift in Sources */,
 				73885A692BCD220B001A4009 /* HomeCoordinator.swift in Sources */,
 				73885A712BCD22E0001A4009 /* TabBarController.swift in Sources */,
+				73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
 				73740C032BD1CE060018DD6C /* OnboardingViewPresenter.swift in Sources */,
 				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,
