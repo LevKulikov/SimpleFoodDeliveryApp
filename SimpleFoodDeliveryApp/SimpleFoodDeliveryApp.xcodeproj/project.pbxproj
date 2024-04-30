@@ -39,6 +39,7 @@
 		7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */; };
 		7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FC2BCAC3460091FE62 /* AppColors.swift */; };
 		73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */; };
+		73FD04292BE1907100289E4B /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD04282BE1907100289E4B /* UserStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7388B4FC2BCAC3460091FE62 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
+		73FD04282BE1907100289E4B /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		7388B4C52BC9E6410091FE62 /* SimpleFoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				73FD04272BE1905D00289E4B /* ServiceLayer */,
 				73740BFE2BD1CD6C0018DD6C /* UILayer */,
 				73885A5F2BCC45BB001A4009 /* NavigationLayer */,
 				7388B4DA2BC9EDED0091FE62 /* Resources */,
@@ -215,6 +218,14 @@
 				7388B4FA2BCAC18E0091FE62 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73FD04272BE1905D00289E4B /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				73FD04282BE1907100289E4B /* UserStorage.swift */,
+			);
+			path = ServiceLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 				73885A692BCD220B001A4009 /* HomeCoordinator.swift in Sources */,
 				73885A712BCD22E0001A4009 /* TabBarController.swift in Sources */,
 				73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */,
+				73FD04292BE1907100289E4B /* UserStorage.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
 				73740C032BD1CE060018DD6C /* OnboardingViewPresenter.swift in Sources */,
 				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,

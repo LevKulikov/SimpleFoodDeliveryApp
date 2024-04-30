@@ -127,9 +127,11 @@ private extension OnboardingViewController {
     @objc
     func buttonPressed() {
         let currentPage = pageControl.currentPage
+        pageIndexBuffer = pageControl.currentPage
         
         if currentPage == (pages.count - 1) {
             print("Finished")
+            viewOutput.onboardingFinished()
         } else {
             pageViewController.setViewControllers([pages[currentPage + 1]], direction: .forward, animated: true)
             pageControl.currentPage += 1

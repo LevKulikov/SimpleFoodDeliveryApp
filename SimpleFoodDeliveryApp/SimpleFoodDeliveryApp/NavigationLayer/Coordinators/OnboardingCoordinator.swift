@@ -12,8 +12,8 @@ final class OnboardingCoordinator: Coordinator {
     }
     
     override func finish() {
-//        finishDelegate?.coordinatorDidFinish(childCoordinator: self)
-        print("Finished")
+        finishDelegate?.coordinatorDidFinish(childCoordinator: self)
+        print("Coordinator Finished")
     }
 }
 
@@ -53,6 +53,8 @@ private extension OnboardingCoordinator {
         
         let presentor = OnboardingViewPresenter(coordinator: self)
         let viewController = OnboardingViewController(pages: pages, viewOutput: presentor)
-        navigationController.pushViewController(viewController, animated: true)
+//        navigationController.pushViewController(viewController, animated: true)
+        viewController.modalPresentationStyle = .fullScreen
+        navigationController.present(viewController, animated: true)
     }
 }
