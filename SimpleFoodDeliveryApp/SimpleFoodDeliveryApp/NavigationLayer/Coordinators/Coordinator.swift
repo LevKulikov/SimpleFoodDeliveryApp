@@ -77,7 +77,7 @@ class Coordinator: CoordinatorProtocol {
     }
 }
 
-extension Coordinator {
+extension CoordinatorProtocol {
     func addChildCoordinators(_ coordinators: any CoordinatorProtocol...) {
         for coordinator in coordinators {
             addChildCoordinator(coordinator)
