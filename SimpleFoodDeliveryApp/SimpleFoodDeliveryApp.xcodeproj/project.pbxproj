@@ -40,6 +40,7 @@
 		7388B4FD2BCAC3460091FE62 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388B4FC2BCAC3460091FE62 /* AppColors.swift */; };
 		73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */; };
 		73FD04292BE1907100289E4B /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD04282BE1907100289E4B /* UserStorage.swift */; };
+		73FD042C2BE1958F00289E4B /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD042B2BE1958F00289E4B /* SceneFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		7388B4FC2BCAC3460091FE62 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		73FD04282BE1907100289E4B /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		73FD042B2BE1958F00289E4B /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		73740BFE2BD1CD6C0018DD6C /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				73FD042A2BE1957D00289E4B /* SceneFactory */,
 				73740BFF2BD1CD9C0018DD6C /* Onboarding */,
 			);
 			path = UILayer;
@@ -228,6 +231,14 @@
 			path = ServiceLayer;
 			sourceTree = "<group>";
 		};
+		73FD042A2BE1957D00289E4B /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				73FD042B2BE1958F00289E4B /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,6 +337,7 @@
 				73885A712BCD22E0001A4009 /* TabBarController.swift in Sources */,
 				73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */,
 				73FD04292BE1907100289E4B /* UserStorage.swift in Sources */,
+				73FD042C2BE1958F00289E4B /* SceneFactory.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
 				73740C032BD1CE060018DD6C /* OnboardingViewPresenter.swift in Sources */,
 				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,
