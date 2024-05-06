@@ -41,6 +41,8 @@
 		73F34F4C2BD2E467006D7247 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */; };
 		73FD04292BE1907100289E4B /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD04282BE1907100289E4B /* UserStorage.swift */; };
 		73FD042C2BE1958F00289E4B /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD042B2BE1958F00289E4B /* SceneFactory.swift */; };
+		73FD042F2BE5091100289E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD042E2BE5091100289E4B /* LoginViewController.swift */; };
+		73FD04352BE509EE00289E4B /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD04342BE509EE00289E4B /* BottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		73F34F4B2BD2E467006D7247 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		73FD04282BE1907100289E4B /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		73FD042B2BE1958F00289E4B /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		73FD042E2BE5091100289E4B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		73FD04342BE509EE00289E4B /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		73740BFE2BD1CD6C0018DD6C /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				73FD042D2BE508F900289E4B /* AuthScene */,
 				73FD042A2BE1957D00289E4B /* SceneFactory */,
 				73740BFF2BD1CD9C0018DD6C /* Onboarding */,
 			);
@@ -239,6 +244,39 @@
 			path = SceneFactory;
 			sourceTree = "<group>";
 		};
+		73FD042D2BE508F900289E4B /* AuthScene */ = {
+			isa = PBXGroup;
+			children = (
+				73FD04322BE5099E00289E4B /* Presentors */,
+				73FD04312BE5099500289E4B /* Controllers */,
+				73FD04302BE5098F00289E4B /* Views */,
+				73FD042E2BE5091100289E4B /* LoginViewController.swift */,
+			);
+			path = AuthScene;
+			sourceTree = "<group>";
+		};
+		73FD04302BE5098F00289E4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73FD04342BE509EE00289E4B /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73FD04312BE5099500289E4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		73FD04322BE5099E00289E4B /* Presentors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,6 +368,7 @@
 				73885A652BCC6407001A4009 /* AppCoordinator.swift in Sources */,
 				73885A6B2BCD2242001A4009 /* OrderCoordinator.swift in Sources */,
 				73740C012BD1CDC30018DD6C /* OnboardingViewController.swift in Sources */,
+				73FD042F2BE5091100289E4B /* LoginViewController.swift in Sources */,
 				7388B4C92BC9E6410091FE62 /* SceneDelegate.swift in Sources */,
 				73885A6F2BCD22AA001A4009 /* ProfileCoordinator.swift in Sources */,
 				73885A6D2BCD2276001A4009 /* ListCoordinator.swift in Sources */,
@@ -339,6 +378,7 @@
 				73FD04292BE1907100289E4B /* UserStorage.swift in Sources */,
 				73FD042C2BE1958F00289E4B /* SceneFactory.swift in Sources */,
 				7388B4FB2BCAC18E0091FE62 /* UIColor+Extension.swift in Sources */,
+				73FD04352BE509EE00289E4B /* BottomView.swift in Sources */,
 				73740C032BD1CE060018DD6C /* OnboardingViewPresenter.swift in Sources */,
 				73885A632BCC4628001A4009 /* Coordinator.swift in Sources */,
 			);
