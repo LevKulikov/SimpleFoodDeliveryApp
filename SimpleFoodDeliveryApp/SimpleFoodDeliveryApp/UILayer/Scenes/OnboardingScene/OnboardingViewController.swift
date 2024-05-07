@@ -38,15 +38,13 @@ final class OnboardingViewController: UIViewController {
         return pageControl
     }()
     
-    private lazy var bottomButton: UIButton = {
-        let button = UIButton()
+    private lazy var bottomButton: FDButton = {
+        let button = FDButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = AppColors.gray
-        button.setTitle(buttonText, for: .normal)
-        button.titleLabel?.font = .Roboto.bold.size(of: 18)
-        button.setTitleColor(AppColors.black, for: .normal)
-        button.layer.cornerRadius = 25
-        button.addTarget(self, action: #selector(buttonPressed), for: .touchUpInside)
+        button.buttonColorScheme = .white
+        button.buttonAction = { [weak self] in
+            self?.buttonPressed()
+        }
         return button
     }()
     
@@ -59,6 +57,10 @@ final class OnboardingViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         fatalError("OnboardingViewController init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        print("OnboardingViewController deinit")
     }
     
     //MARK: - Lyfe Cycle
@@ -124,7 +126,6 @@ private extension OnboardingViewController {
         setButtonTitle(currentPageIndex: pageControl.currentPage)
     }
     
-    @objc
     func buttonPressed() {
         let currentPage = pageControl.currentPage
         pageIndexBuffer = pageControl.currentPage

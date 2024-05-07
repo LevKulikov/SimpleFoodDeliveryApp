@@ -15,11 +15,11 @@ final class AppCoordinator: Coordinator {
 //        if userStorage.passedOnboarding {
 //            showMainFlow()
 //        } else {
-//            showOnboardingFlow()
+            showOnboardingFlow()
 //        }
         
-        let loginVC = LoginViewController()
-        navigationController.pushViewController(loginVC, animated: true)
+//        let loginVC = LoginViewController()
+//        navigationController.pushViewController(loginVC, animated: true)
     }
     
     override func finish() {
